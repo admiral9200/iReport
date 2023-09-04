@@ -34,7 +34,7 @@ const Sidebar = ({
                     </div>
                 )
             }
-            {/* <div>{children}</div> */}
+            <div>{children}</div>
             <div>
                 Home
             </div>

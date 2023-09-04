@@ -6,7 +6,21 @@ import List from "./List";
 import ListItem from "./ListItem";
 
 const Notifications = () => {
-    const {data} = useNotifications();
+    // const {data} = useNotifications();
+    const data = [
+        {
+            id: 1,
+            code: "example code 1"
+        },
+        {
+            id: 2,
+            code: "example code 2"
+        },
+        {
+            id: 3,
+            code: "example code 3"
+        }
+    ]
 
     return (
         <Popover className="relative">

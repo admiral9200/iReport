@@ -9,7 +9,8 @@ import MenuItem from "./MenuItem";
 import { Link } from "react-router-dom";
 
 const ProfileMenu = ({className}) => {
-    const { data } = useUserInfo("AUTHKEY123");
+    // const { data } = useUserInfo("AUTHKEY123");
+    const data = {firstName: "Sharp", lastName: "Sword", role: "user"}
     return (
         <Menu
             className="my-6"

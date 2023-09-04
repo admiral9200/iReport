@@ -18,10 +18,11 @@ import Notifications from "../components/Notifications";
 import IconButton from "../components/IconButton";
 import ProfileMenu from "../components/ProfileMenu";
 // import QueryWrapper from "../components/QueryWrapper";
-// import { Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 
 const links = [
     { icon: HiHome, label: "Home", to: "/home" },
+    { icon: HiHome, label: "Live Studios", to: "/live-studios" },
     { icon: HiUsers, label: "Members", to: "/admin/members" },
     { icon: HiTruck, label: "Orders", to: "/admin/orders" },
     { icon: HiPencilAlt, label: "Products", to: "/admin/products" }
@@ -73,9 +74,11 @@ const Home = () => {
                     </header>
                 )}
                 {/* <QueryWrapper>
-                    <Route exact path="/admin">
-                        Admin Component
-                    </Route>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/live-studios" element={<h1>Live Studios</h1>} />
+                        
+                    </Routes>
                 </QueryWrapper> */}
             </main>
         </div>

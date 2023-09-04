@@ -26,7 +26,9 @@ export default React.forwardRef(
         loading,
         onClick,
         type = "button"
-    }, ref) {
+    },
+        ref
+    ) {
         return (
             <button
                 className={clsx(

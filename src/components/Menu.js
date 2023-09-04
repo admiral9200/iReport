@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import clsx from "clsx";
 import { Menu as HeadlessMenu, Transition } from "@headlessui/react";
 
@@ -16,7 +16,7 @@ const Menu = ({
                 <HeadlessMenu.Button className="w-full">{trigger}</HeadlessMenu.Button>
             </div>
             <Transition
-                as={React.Fragment}
+                as={Fragment}
                 enter="transition ease-out duration-100"
                 enterFrom="transform opacity-0 scale-95"
                 enterTo="transform opacity-100 scale-100"
