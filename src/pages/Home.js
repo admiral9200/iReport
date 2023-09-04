@@ -23,9 +23,15 @@ import ProfileMenu from "../components/ProfileMenu";
 const links = [
     { icon: HiHome, label: "Home", to: "/home" },
     { icon: HiHome, label: "Live Studios", to: "/live-studios" },
-    { icon: HiUsers, label: "Members", to: "/admin/members" },
-    { icon: HiTruck, label: "Orders", to: "/admin/orders" },
-    { icon: HiPencilAlt, label: "Products", to: "/admin/products" }
+    { icon: HiHome, label: "Election", to: "/election" },
+    { icon: HiHome, label: "Upcoming Events", to: "/upcoming-events" },
+    { icon: HiHome, label: "Clique", to: "/clique" },
+    { icon: HiHome, label: "Connections", to: "/connections" },
+    { icon: HiHome, label: "Notifications", to: "/notifications" },
+    { icon: HiHome, label: "Settings", to: "/settings" },
+    { icon: HiHome, label: "Profile", to: "/profile" },
+    { icon: HiHome, label: "Admin", to: "/admin" },
+    { icon: HiHome, label: "Log Out", to: "/logout" },
 ]
 
 const Home = () => {
